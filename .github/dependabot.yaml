@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+  - package-ecosystem: "npm"
+    versioning-strategy: "increase-if-necessary"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
