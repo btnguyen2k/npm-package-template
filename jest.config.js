@@ -3,7 +3,7 @@ export default {
   clearMocks: true,
   // collectCoverage: true,
   collectCoverageFrom: [
-    'src/index.js'
+    './src/**'
   ],
   coverageDirectory: 'coverage',
   coverageThreshold: {
