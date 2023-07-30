@@ -4,7 +4,7 @@ name: "Automerge"
 on:
   workflow_run:
     workflows:
-      - "All Branches"
+      - "CI"
     types:
       - completed
 

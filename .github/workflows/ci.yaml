@@ -1,4 +1,4 @@
-name: "All Branches"
+name: "CI"
 on:
   # Automatically trigger it there are changes in repo
   pull_request:
