@@ -6,15 +6,6 @@ on:
     types:
       - completed
 
-  # Automatically trigger it there are changes in repo
-  pull_request:
-    branches: [ main ]
-  push:
-    branches: [ main ]
-
-  # Allow manually trigger
-  workflow_dispatch:
-
 permissions:
   contents: read # for checkout
 
